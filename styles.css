@@ -1,0 +1,220 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 4em 2em 2em;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1, h2, h3 {
+    margin-bottom: 0.5em;
+    color: #007BFF;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Home Page */
+#home h1 {
+    font-size: 2.5em;
+    margin-top: 2em;
+    color: #333;
+}
+
+#home .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#home .text {
+    max-width: 600px;
+}
+
+#home .photo img {
+    border-radius: 50%;
+    border: 3px solid #007BFF;
+}
+
+/* About Page */
+#about .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#about .education {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about .education .education-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#about .education .education-item {
+    flex: 1;
+}
+
+/* Skills Page */
+#Skills {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px; /* Adds space above the entire Skills section */
+}
+
+#Skills h1 {
+    margin-top: 40px; /* Adds space above the heading */
+}
+
+.Skills {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 800px;
+}
+.Skills div {
+    flex: 1;
+    margin: 0 10px;
+}
+.Skills p {
+    color: blue;
+    font-weight: bold;
+}
+.Skills ul {
+    list-style-type: disc; /* Bullet points */
+    padding-left: 20px; /* Adjust left padding for bullets */
+}
+.Skills li {
+    margin-bottom: 8px; /* Space between each list item */
+}
+
+/* Projects Page */
+#projects .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#projects .project-item {
+    flex: 1 1 calc(33% - 20px);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Resume Page */
+#resume a {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#resume a:hover {
+    background-color: #0056b3;
+}
+
+/* Contact Page */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional Styles for Links and Buttons */
+a {
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
